@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Login</h1>
+
+<form id="form-login" method="post" class="form">
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" class="form-control"/>
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" class="form-control"/>
+    </div>
+    
+    <div class="form-group">
+        <button class="btn btn-default">Sign in</button>
+    </div>
+</form>
+
+{% end %}
